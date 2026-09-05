@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amirhossein Rahmani — AI Engineer & Python Developer Portfolio">
+  <title>Amirhossein Rahmani | AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">AR<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-button" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <h1>AI Engineer<br><span>& Python Developer</span></h1>
+        <p class="hero-text">
+          I build production-ready software and AI systems, from enterprise applications
+          and high-performance data pipelines to deep learning and medical AI.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#projects">Explore my work <span>↓</span></a>
+          <a class="text-button" href="#contact">Contact me <span>↗</span></a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>6+</strong><span>Years experience</span></div>
+          <div><strong>AI</strong><span>Deep Learning</span></div>
+          <div><strong>Python</strong><span>Core stack</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="profile-wrap">
+          <div class="profile-ring"></div>
+          <img id="profileImage" src="assets/images/profile.jpg" alt="Profile photo"
+               onerror="this.style.display='none'; document.getElementById('profilePlaceholder').style.display='flex';">
+          <div id="profilePlaceholder" class="profile-placeholder">
+            <span>YOUR<br>PHOTO</span>
+          </div>
+        </div>
+        <div class="floating-card card-ai"><span>✦</span> AI / ML</div>
+        <div class="floating-card card-python"><span>⌘</span> Python</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-grid">
+        <div>
+          <h2>Building software<br>that <span>solves real problems.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            AI Engineer and Python Developer with 6 years of professional software
+            development experience. My work spans enterprise web applications,
+            medical signal processing, deep learning, and generative AI.
+          </p>
+          <p>
+            I have independently designed and developed production applications
+            end-to-end — from architecture and data processing to user interfaces,
+            device integration, optimization, and deployment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-label">02 / EXPERIENCE</div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2023 — 2026</div>
+          <div class="timeline-content">
+            <div class="role-line"><h3>Python Developer / AI Engineer</h3><span>Medical Technology</span></div>
+            <p>
+              Independently developed multiple medical software systems for sleep and respiratory
+              testing, including real-time signal monitoring, medical-device configuration,
+              EDF analysis/reporting, AI-based sleep analysis, and a domain-specific medical AI agent.
+            </p>
+            <ul>
+              <li>Optimized 24-hour physiological data processing using downsampling and efficient memory management.</li>
+              <li>Optimized algorithms and processing pipelines to substantially improve execution speed.</li>
+              <li>Built complete applications using Python, PyQt, NumPy and Pandas.</li>
+              <li>Developed LSTM/CNN-based systems for sleep-stage and sleep-disorder detection.</li>
+              <li>Designed an AI agent for sleep-related medical questions.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">2020 — 2023</div>
+          <div class="timeline-content">
+            <div class="role-line"><h3>Software Developer</h3><span>Enterprise / Holding</span></div>
+            <p>
+              Developed and maintained internal web-based enterprise applications used by
+              employees across the organization.
+            </p>
+            <ul>
+              <li>Designed a Redis-based request queuing workflow for incoming service requests.</li>
+              <li>Integrated Redis and Oracle Database using request keys for routing and retrieval.</li>
+              <li>Automated a previously manual issue-resolution process for application and database failures.</li>
+              <li>Performed root-cause analysis and converted repetitive operational work into automated workflows.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">03 / SELECTED WORK</div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top"><span class="project-number">01</span><span class="tag">DEEP LEARNING</span></div>
+          <h3>PSG Sleep Staging</h3>
+          <p>Automatic sleep-stage classification from physiological signals using LSTM-based deep learning pipelines.</p>
+          <div class="chips"><span>PyTorch</span><span>LSTM</span><span>Signal Processing</span><span>Sleep-EDF</span></div>
+          <a href="#" class="project-link">View case study <span>↗</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">02</span><span class="tag">MEDICAL AI</span></div>
+          <h3>Breast Cancer CNN</h3>
+          <p>Deep learning classification of breast ultrasound images into benign, malignant, and normal categories.</p>
+          <div class="chips"><span>PyTorch</span><span>CNN</span><span>Computer Vision</span></div>
+          <a href="#" class="project-link">View case study <span>↗</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">03</span><span class="tag">CONFIDENTIAL</span></div>
+          <h3>Enterprise Systems</h3>
+          <p>Large-scale internal web applications and automated request-processing workflows for organizational operations.</p>
+          <div class="chips"><span>Python</span><span>Redis</span><span>Oracle</span><span>Web</span></div>
+          <span class="project-link muted">Source code confidential</span>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">04</span><span class="tag">GENERATIVE AI</span></div>
+          <h3>Sleep Medicine AI Agent</h3>
+          <p>Domain-focused AI agent designed to answer sleep-related medical questions and support structured interaction.</p>
+          <div class="chips"><span>Python</span><span>LLM</span><span>AI Agent</span><span>NLP</span></div>
+          <a href="#" class="project-link">View case study <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="media" class="section">
+      <div class="section-label">04 / DEMOS</div>
+      <div class="media-heading">
+        <div><h2>See it <span>in action.</span></h2></div>
+        <p>Add your own project videos to <code>assets/videos/</code> and edit the list in <code>script.js</code>.</p>
+      </div>
+      <div id="videoGrid" class="video-grid"></div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">05 / TOOLKIT</div>
+      <div class="skills-layout">
+        <div>
+          <h2>Tools I use to<br><span>build & ship.</span></h2>
+          <p class="skills-intro">A practical stack built around Python, AI, data, and production software engineering.</p>
+        </div>
+        <div id="skillsGrid" class="skills-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-box">
+        <div>
+          <div class="section-label">06 / CONTACT</div>
+          <h2>Let's build something<br><span>meaningful.</span></h2>
+          <p>Open to AI, Python, Machine Learning and Software Engineering opportunities.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com"><span>Email</span><strong>your.email@example.com ↗</strong></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>linkedin.com/in/your-profile ↗</strong></a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span><strong>github.com/your-username ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Amirhossein Rahmani</span>
+    <span>Designed & built with Python mindset.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
