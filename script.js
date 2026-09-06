@@ -58,8 +58,8 @@ function renderVideos() {
     grid.innerHTML = `
       <div class="video-card" style="grid-column:1/-1">
         <div class="video-info">
-          <h3>No demo videos added yet</h3>
-          <p>Add your .mp4/.webm file to <code>assets/videos/</code>, then add one item to the <code>videos</code> array in script.js.</p>
+          
+          
         </div>
       </div>`;
     return;
